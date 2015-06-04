@@ -10,6 +10,13 @@
 <body>
 <script>
 (function($){
+
+	var Man = Backbone.Model.extend({
+		initialize: function(){
+			alert("Hey, you creat me!");
+		}
+	});
+	var man = Man;
 	
 })(jQuery);
 </script>
